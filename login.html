@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<style>
+
+.text
+{
+  text-align: center;
+}
+#top_background
+{
+  background-color: lightblue;
+  padding-bottom: 25px;
+}
+#bottom_background
+{
+  background-color: linen;
+  padding-top: 100px;
+  padding-bottom: 100px
+}
+
+</style>
+
+</head>
+  <h1 class = "text"> FreeScheema.com </h1>
+
+<script>
+// Summary - this function will alert whether the authentication was succesful or not//
+  function pop_up_message()
+  {window.alert("Authentication Succesful")}
+
+  function sign_up_page()
+  {
+    location.href = "sign_up.html"
+  }
+
+</script>
+
+<style> </style>
+
+<body>
+<div class = "container">
+<div class = "text" id = "top_background">
+   <img src = "download.png"> <br>
+   <input placeholder = "Username"> <br>
+   <input placeholder = "Password"> <br>
+   <br>
+   <br>
+   <button onclick = "pop_up_message()"> Login </button>
+</div>
+
+<div class = "text" id = "bottom_background">
+<button onclick = "sign_up_page()"> Sign Up </button>
+</div>
+</div>
+</body>
